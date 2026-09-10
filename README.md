@@ -78,7 +78,10 @@ Llama a las funciones definidas previamente para procesar un producto de punta a
 Si creó el producto correctamente, actualiza su inventario con los datos interpretados.
 Si no puede crearse el producto, se termina su ejecución. En caso de que el producto indique "Pre order", se imprime un mensaje por pantalla para activar esa opción manualmente en Wix, ya que no es posible hacerlo mediante código.
 
-> Nota: para funcionar, el proyecto requiere un archivo `.env` con las variables `WIX_API_KEY`, `WIX_SITE_ID` y `SPREADSHEET_ID`, y un archivo `credentials.json` de Google Cloud (OAuth) en la misma carpeta.
+> Nota: para funcionar, el proyecto requiere un archivo .env con las variables WIX_API_KEY, WIX_SITE_ID, SPREADSHEET_ID, URL_RO y URL_B, y un archivo credentials.json de Google Cloud (OAuth) en la misma carpeta.
+
+## Resultado
+<img width="2171" height="822" alt="result" src="https://github.com/user-attachments/assets/3bf05e05-60b4-48e9-b2af-6e56a7ca6b43" />
 
 ## Conclusión
 A partir del desarrollo de esta automatización, comencé a analizar de manera más rigurosa si determinadas tareas o procesos pueden ser automatizados, por lo que realmente amplió mi perspectiva sobre la identificación de patrones que pueden traducirse a un script permitiendo así reducir el tiempo que se necesita en tareas repetitivas. Además, no deja de resultarme impactante como la Inteligencia Artificial sirve como un recurso muy valioso durante el proceso de aprendizaje. Definitivamente, esta experiencia reforzó mi interés por la automatización y quiero seguir aprendiendo.
