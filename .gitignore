@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Archivos propios del proyecto
+.env
+credentials.json
+token.json
+filas_ya_subidas.txt
